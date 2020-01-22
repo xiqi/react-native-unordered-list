@@ -35,7 +35,7 @@ import Unorderedlist from 'react-native-unordered-list';
 ### Customized bullet character
 
 ```javascript
-<Unorderedlist bulltUnicode={0x2765}><Text>Grandparent</Text>
+<Unorderedlist bulletUnicode={0x2765}><Text>Grandparent</Text>
 ```
 
 Some commonly used bullet characters are:
@@ -59,7 +59,7 @@ Find more: https://home.unicode.org/
 
 | Property       | Type                       | Description                 |
 |:--------------:|:--------------------------:|:---------------------------:|
-| `bulltUnicode` | A hex number (e.g. `0x2765`) | Customized bullet character |
+| `bulletUnicode` | A hex number (e.g. `0x2765`) | Customized bullet character |
 
 
 ## Example
@@ -84,10 +84,10 @@ export default () => {
                     <Unorderedlist><Text>and a black one</Text></Unorderedlist>
                 </Unorderedlist>
             </Unorderedlist>
-            <Unorderedlist bulltUnicode={0x2765}><Text>Buy some books</Text>
-                <Unorderedlist bulltUnicode={0x2023}><Text>Kafka on the Shore</Text></Unorderedlist>
-                <Unorderedlist bulltUnicode={0x2023}><Text>Animal Farm</Text></Unorderedlist>
-                <Unorderedlist bulltUnicode={0x2023}><Text>The Art of Computer Programming</Text></Unorderedlist>
+            <Unorderedlist bulletUnicode={0x2765}><Text>Buy some books</Text>
+                <Unorderedlist bulletUnicode={0x2023}><Text>Kafka on the Shore</Text></Unorderedlist>
+                <Unorderedlist bulletUnicode={0x2023}><Text>Animal Farm</Text></Unorderedlist>
+                <Unorderedlist bulletUnicode={0x2023}><Text>The Art of Computer Programming</Text></Unorderedlist>
             </Unorderedlist>
         
         </View>
