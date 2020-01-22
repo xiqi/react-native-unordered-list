@@ -12,7 +12,7 @@ import { Text, StyleSheet, View } from 'react-native';
 
 const bullets = ['\u2022', '\u25E6', '\u25AA'];
 
-export default ({ children, unorderedListLevel, bulltUnicode }) => {
+export default ({ children, unorderedListLevel, bulletUnicode }) => {
     const level = !unorderedListLevel ? 0 : unorderedListLevel;
     const newChildren = React.Children.map(children, child => {
         return React.cloneElement(child, {
@@ -22,7 +22,7 @@ export default ({ children, unorderedListLevel, bulltUnicode }) => {
 
     return (
         <View style={styles.bulletPointLine}>
-            <Text>{bulltUnicode ? String.fromCharCode(bulltUnicode) : (level > bullets.length ? bullets[bullets.length - 1] : bullets[level])}</Text>
+            <Text>{bulletUnicode ? String.fromCharCode(bulletUnicode) : (level > bullets.length ? bullets[bullets.length - 1] : bullets[level])}</Text>
             <View style={styles.bulletPointText}>{newChildren}</View>
         </View>
     );
