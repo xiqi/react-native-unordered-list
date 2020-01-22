@@ -5,20 +5,24 @@
 
 `yarn add react-native-unordered-list` or `npm install react-native-unordered-list --save`
 
-and then import in your component
+and then import into your component
 
-`import Unorderedlist from 'react-native-unordered-list';`
+```javascript
+import Unorderedlist from 'react-native-unordered-list';
+```
 
 
 ## Usage
 
 ### Basic Usage
 
-`<Unorderedlist><Text>item</Text></Unorderedlist>`
+```javascript
+<Unorderedlist><Text>item</Text></Unorderedlist>
+```
 
 ### Nested List
 
-```
+```javascript
 <Unorderedlist><Text>Grandparent</Text>
     <Unorderedlist><Text>Parent</Text>
         <Unorderedlist><Text>Child</Text></Unorderedlist>
@@ -26,21 +30,39 @@ and then import in your component
 </Unorderedlist>
  ```
 
- ### Customized bullet character
+### Customized bullet character
 
- `<Unorderedlist bulltUnicode={0x2765}><Text>Grandparent</Text>`
+```javascript
+<Unorderedlist bulltUnicode={0x2765}><Text>Grandparent</Text>
+```
+
+Some commonly used bullet characters are:
+
+```javascript
+0x2022 •
+0x25E6 ◦
+0x25AA ▪
+0x2023 ‣
+0x2043 ⁃
+0x25D8 ◘
+0x2765 ❥
+0x29BE ⦾
+0x29BF ⦿
+```
+
+Find more: https://home.unicode.org/
 
 
 ## API
 
 | Property       | Type                       | Description                 |
-| -------------- |:--------------------------:| ---------------------------:|
-| `bulltUnicode` | A hex number (e.g. 0x2765) | Customized bullet character |
+|:--------------:|:--------------------------:|:---------------------------:|
+| `bulltUnicode` | A hex number (e.g. `0x2765`) | Customized bullet character |
 
 
 ## Example
 
-```
+```javascript
 import React from 'react';
 import { Text } from 'react-native';
 import Unorderedlist from 'react-native-unordered-list';
