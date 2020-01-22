@@ -1,4 +1,7 @@
 # react-native-unordered-list
+
+![](https://img.shields.io/npm/v/react-native-unordered-list)
+
  React Native Unordered List Component
 
 ## Installation
