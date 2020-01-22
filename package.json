@@ -1,0 +1,30 @@
+{
+  "name": "react-native-unordered-list",
+  "version": "1.0.0",
+  "description": "A simple React Native component to display an unordered list (bullet points).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native unordered list",
+    "react native unordered list",
+    "react-native bullet point",
+    "react native bullet point",
+    "react-native bullet points",
+    "react native bullet points",
+    "react-native ul",
+    "react native ul",
+    "react-native component",
+    "react native component",
+    "unordered list",
+    "unordered",
+    "list",
+    "bullet point",
+    "bullet",
+    "point",
+    "ul"
+  ],
+  "author": "Qi Xi",
+  "license": "MIT"
+}
