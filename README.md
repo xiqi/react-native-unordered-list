@@ -35,10 +35,11 @@ import Unorderedlist from 'react-native-unordered-list';
 </Unorderedlist>
  ```
 
-### Customized bullet character
+### Customized bullet character and color
 
 ```javascript
 <Unorderedlist bulletUnicode={0x2765}><Text>Grandparent</Text>
+<Unorderedlist color='red'><Text>A Kind of Red</Text>
 ```
 
 Some commonly used bullet characters are:
@@ -63,6 +64,7 @@ Find more: https://home.unicode.org/
 | Property       | Type                       | Description                 |
 |:--------------:|:--------------------------:|:---------------------------:|
 | `bulletUnicode` | A hex number (e.g. `0x2765`) | Customized bullet character |
+| `color` | A color string (e.g. `'red'`, `'#FF0000'`, `'rgb(255,0,0)'`) | Customized bullet color |
 
 
 ## Example
