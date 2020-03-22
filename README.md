@@ -39,7 +39,7 @@ import Unorderedlist from 'react-native-unordered-list';
 
 ```javascript
 <Unorderedlist bulletUnicode={0x2765}><Text>Grandparent</Text>
-<Unorderedlist color='red'><Text>A Kind of Red</Text>
+<Unorderedlist color='red'><Text>Red</Text>
 ```
 
 Some commonly used bullet characters are:
