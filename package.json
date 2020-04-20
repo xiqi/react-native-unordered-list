@@ -23,6 +23,10 @@
     "list",
     "ul"
   ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "author": "Qi Xi <me@imxiqi.com> (https://www.imxiqi.com/)",
   "license": "MIT"
 }
