@@ -1,6 +1,6 @@
 {
   "name": "react-native-unordered-list",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple React Native component to display an unordered list (bullet points).",
   "main": "index.js",
   "homepage": "https://github.com/xiqi/react-native-unordered-list",
@@ -23,6 +23,10 @@
     "list",
     "ul"
   ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "author": "Qi Xi <me@imxiqi.com> (https://www.imxiqi.com/)",
   "license": "MIT"
 }
